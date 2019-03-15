@@ -1,0 +1,129 @@
+﻿@model BD.Models.HR.Employee
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>ПРИКАЗ ОБ УВАЛЬНЕНИИ</h2>
+
+<h3>Сотрудник будет уволен и будет сохранен акт об увальнении</h3>
+<div>
+    <h4>Сотрудник</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Department.DepartmentCity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.DepartmentCity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MiddleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MiddleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PasportData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PasportData)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Graduate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Graduate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Languages)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Languages)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastJob)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastJob)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.СomeDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.СomeDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContractTerm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContractTerm)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Save" class="btn btn-default" /> |
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

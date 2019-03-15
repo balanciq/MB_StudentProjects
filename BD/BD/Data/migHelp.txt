@@ -1,0 +1,5 @@
+﻿Enable-Migrations -ContextTypeName HRContext -MigrationDirectory Migrations\HR
+
+Add-migration -ConfigurationTypeName BD.Migrations.Configuration "InitialCreate"
+
+Update-Database  -ConfigurationTypeName BD.Migrations.Configuration
