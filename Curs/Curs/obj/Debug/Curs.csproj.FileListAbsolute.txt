@@ -1,0 +1,10 @@
+C:\Users\Maxim\source\repos\Curs\Curs\bin\Debug\Curs.exe.config
+C:\Users\Maxim\source\repos\Curs\Curs\bin\Debug\Curs.exe
+C:\Users\Maxim\source\repos\Curs\Curs\bin\Debug\Curs.pdb
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.csprojAssemblyReference.cache
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.Form1.resources
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.Properties.Resources.resources
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.csproj.GenerateResource.cache
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.exe
+C:\Users\Maxim\source\repos\Curs\Curs\obj\Debug\Curs.pdb
