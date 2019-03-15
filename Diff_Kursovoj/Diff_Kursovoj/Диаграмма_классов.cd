@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Diff_Kursovoj.SomeDif">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAEQQAAQAACEAAAEAAAAAAAAEQAA=</HashCode>
+      <FileName>SomeDif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diff_Kursovoj.Parsing">
+    <Position X="7" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IBAAAQCIAABgAAAAAAAgICABSAAABEACAAIAAECgSAA=</HashCode>
+      <FileName>Parsing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diff_Kursovoj.MainForm">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="go" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="input" Hidden="true" />
+      <Field Name="materialLabel1" Hidden="true" />
+      <Field Name="materialLabel3" Hidden="true" />
+      <Field Name="OTVET" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACQAQAABAACQAAADACQIABAAAAAAAQAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diff_Kursovoj.Differential">
+    <Position X="0.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAAAAAAAAAgAgAAAAQBAAAEAAAEAACCCoAAA=</HashCode>
+      <FileName>Differential.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
